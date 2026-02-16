@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todoリスト</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Todoリスト</h1>
+    </header>
+    <main>
+        <form>
+            <input id="taskInput" type="text" placeholder="タスクを入力">
+            <input id="regButton" type="button" value="登録">
+        </form>
+
+        <ul id="todoList">
+            <li class="todoItem">
+                <div class="todoText">タスク例</div>
+                <div class="buttonArea">
+                    <input class="finButton" type="button" value="達成">
+                    <input class="delButton" type="button" value="削除">
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <h3>作成者: Yuuki7190</h3>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
